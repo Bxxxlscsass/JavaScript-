@@ -255,12 +255,9 @@
                 var y = amountToY(ticks[i]); //calcula a posição Y da marca 
                 g.fillText(String(ticks[i].toFixed(0)),
                         rightEdge-5, y);
-
             }   
         }    
         </script>
-
-        </style>
-    
 </body>
 </html>
+
