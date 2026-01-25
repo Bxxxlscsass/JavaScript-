@@ -45,7 +45,7 @@
                         Apply for your loan with one of these fine lenders:
                         <div id="lenders"></div></td></tr>
             </table>
-            <!-- o restante do codigo a cima ficaria em javascript porgrama da funcao na marca a seguir -->
+            <!-- o restante do codigo a cima ficaria em javascript programa da funcao na marca a seguir -->
             <!-- Normalmente, este script ficaria na marca <head> do documento acima, mas -->
             <!-- é mais facil entede-lo aqui, depois de ter visto seu contexto em HTML-->
             <script>
@@ -77,7 +77,7 @@
                 var x = Math.pow(1 + interest, Payments); //math.pow(), calcula potencias de numeros 
                 var monthly = (principal *x*interest)/(x-1); 
 
-                //se o resultado é ium numero finito, a entrada do usuario estava correta e 
+                //se o resultado é um numero finito, a entrada do usuario estava correta e 
                 //temos o resultado signiificativo para exibir a função na tabela calculada 
                 if (isFinite(monthly)) {
                     //preenche os ecampos da saida, arredondando para 2 casas decimais na folha do grafico 
@@ -260,4 +260,5 @@
         </script>
 </body>
 </html>
+
 
