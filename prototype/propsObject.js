@@ -189,3 +189,5 @@ var p = {x:1};   //define um objeto protótipo
 var o = Object.create(p); //cria um opbjeto com esse protótipo
 p.isPrototypeOf(p)  //=> verdadeiro: o herda de p 
 Object.prototype.isPrototypeOf(p)  //=> verdadeiro: p herda de Object.prototype
+/*
+*/
